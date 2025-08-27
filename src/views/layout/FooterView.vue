@@ -12,25 +12,13 @@
                     <div class="col-md-6 col-lg-5">
                         <div class="footer-widget-box about-us">
                             <a href="#" class="footer-logo">
-                                <img src="images/logo-light.png" alt="">
+                                <img src="csiicon.png" style="width: 50px;" alt="">
                             </a>
                             <p class="mb-3">
                                 We are many variations of passages available majority have suffered
                                 in some injected content of a page when looking at its layout humour words believable.
                             </p>
-                            <div class="footer-newsletter">
-                                <p>Subscribe Our Newsletter</p>
-                                <div class="subscribe-form">
-                                    <form action="#">
-                                        <div class="form-group">
-                                            <input type="email" class="form-control" placeholder="Your Email">
-                                            <button class="theme-btn" type="submit">
-                                                <span class="far fa-paper-plane"></span> Subscribe
-                                            </button>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="col-md-6 col-lg-2">
@@ -71,8 +59,8 @@
                                 </li>
                             </ul>
                             <div class="footer-request">
-                                <p>Book Your Ticket</p>
-                                <a href="#" class="theme-btn">Buy Ticket<i class="fas fa-arrow-right"></i></a>
+                                <!-- <p>Book Your Ticket</p>
+                                <a href="#" class="theme-btn">Buy Ticket<i class="fas fa-arrow-right"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -84,7 +72,7 @@
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text">
-                            � Copyright <span id="date"></span> <a href="#"> Eventu </a> All Rights Reserved.
+                            � Copyright <span id="date"></span> <a href="#"> </a> All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-md-6 align-self-center">

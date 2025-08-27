@@ -56,7 +56,7 @@
         <div class="main-navigation">
             <nav class="navbar navbar-expand-lg">
                 <div class="container position-relative">
-                    <a href="index.html" class="navbar-brand">
+                    <a href="/" class="navbar-brand">
                         <img src="csilogo.png" alt="logo">
                     </a>
                     <div class="mobile-menu-right">
