@@ -78,8 +78,8 @@ Table of contents
 :root {
   --body-font: 'Roboto', sans-serif;
   --heading-font: "Poppins", sans-serif;
-  --theme-color: #FC226A;
-  --theme-color2: #8C52FF;
+  --theme-color: #4a134b;
+  --theme-color2: #fad6e5;
   --theme-bg-light: #F8F9FE; 
   --color-dark: #01054C;
   --color-gray: #F6F6F6;
@@ -1900,7 +1900,7 @@ label {
 }
 
 .hero-slider.owl-theme .owl-dots .owl-dot.active span {
-  background-color: var(--theme-color);
+  background-color: var(--theme-color2);
 }
 
 @media all and (max-width: 1199px) {
@@ -4791,7 +4791,7 @@ label {
 }
 
 .site-breadcrumb .breadcrumb-menu li.active {
-  color: var(--theme-color);
+  color: var(--theme-color2);
 }
 
 

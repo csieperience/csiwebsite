@@ -16,6 +16,24 @@
   z-index: -1;        /* place it behind content */
 }
 
+.hero-content {
+  position: relative; /* make it a positioning context */
+  z-index: 1;
+  padding: 20px 0;
+}
+
+.hero-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2); /* adjust opacity/color */
+  z-index: -1; /* keeps it behind the text */
+  border-radius: 8px; /* optional, for rounded corners */
+}
+
 </style>
 
 <template>
@@ -123,7 +141,7 @@
                                     </li>
                                 </ul>
                             </div>
-                            <a href="about.html" class="theme-btn">Discover More<i class="fas fa-arrow-right"></i></a>
+                            <!-- <a href="about.html" class="theme-btn">Discover More<i class="fas fa-arrow-right"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -230,10 +248,10 @@
                                 <div class="feature-icon">
                                     <img src="images/speaker.svg" alt="">
                                 </div>
-                                <h4 class="feature-title">Great Speakers</h4>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                                <a href="contact.html" class="theme-btn mt-20">Learn More<i
-                                        class="fas fa-arrow-right"></i></a>
+                                <h4 class="feature-title">Care</h4>
+                                <p>We are intentional about people and every detail.</p>
+                                <!-- <a href="contact.html" class="theme-btn mt-20">Learn More<i
+                                        class="fas fa-arrow-right"></i></a> -->
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
@@ -242,10 +260,10 @@
                                 <div class="feature-icon">
                                     <img src="images/learn.svg" alt="">
                                 </div>
-                                <h4 class="feature-title">Learn New Things</h4>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                                <a href="contact.html" class="theme-btn mt-20">Learn More<i
-                                        class="fas fa-arrow-right"></i></a>
+                                <h4 class="feature-title">Innovation</h4>
+                                <p>We push boundaries with creativity and technology</p>
+                                <!-- <a href="contact.html" class="theme-btn mt-20">Learn More<i
+                                        class="fas fa-arrow-right"></i></a> -->
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
@@ -254,10 +272,10 @@
                                 <div class="feature-icon">
                                     <img src="images/meet.svg" alt="">
                                 </div>
-                                <h4 class="feature-title">Meet New People</h4>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                                <a href="contact.html" class="theme-btn mt-20">Learn More<i
-                                        class="fas fa-arrow-right"></i></a>
+                                <h4 class="feature-title">Performance</h4>
+                                <p>We deliver consistently and exceed expectations.</p>
+                                <!-- <a href="contact.html" class="theme-btn mt-20">Learn More<i
+                                        class="fas fa-arrow-right"></i></a> -->
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-3">
@@ -266,10 +284,10 @@
                                 <div class="feature-icon">
                                     <img src="images/question.svg" alt="">
                                 </div>
-                                <h4 class="feature-title">Ask Questions</h4>
-                                <p>It is a long established fact that a reader will be distracted.</p>
-                                <a href="contact.html" class="theme-btn mt-20">Learn More<i
-                                        class="fas fa-arrow-right"></i></a>
+                                <h4 class="feature-title">Accountability</h4>
+                                <p>We own our process, our results, and your trust.</p>
+                                <!-- <a href="contact.html" class="theme-btn mt-20">Learn More<i
+                                        class="fas fa-arrow-right"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -296,7 +314,7 @@
                             <h1>Lets work together</h1>
                             <p>We redefine event experiences by crafting unforgettable moments
                                 that inspire connection, creativity, and culture.</p>
-                            <a href="#" class="theme-btn">Contact Us Now<i class="fas fa-arrow-right"></i></a>
+                            <a href="#contact-section" class="theme-btn">Contact Us Now<i class="fas fa-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -312,7 +330,7 @@
                     <div class="col-lg-6">
                         <div class="choose-img wow fadeInLeft" data-wow-delay=".25s">
                             <img src="images/01_5.jpg" alt="">
-                            <a href="#" class="theme-btn">Learn More <i class="far fa-arrow-right"></i></a>
+                            <!-- <a href="#" class="theme-btn">Learn More <i class="far fa-arrow-right"></i></a> -->
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -320,12 +338,19 @@
                             <div class="site-heading mb-0">
                                 <div class="site-shadow-text">Why Us</div>
                                 <h2 class="site-title mb-10">Why CSI Experience ?</h2>
-                                <p>
-                                    It is a long established fact that a reader will be distracted by the readable
-                                    content of a page when looking at its layout.
+                                <p style="text-align: justify;">
+                                    CSI Experiential is an event production company that believes events should be felt, not just attended. Born from a passion for redefining interaction, CSI specializes in engineering moments that move people and create stories worth remembering. With a commitment to bringing a VIP treatment to every event, CSI focuses on creating immersive experiences with seamless, spectacular execution.
+                                </p>
+
+                                <p style="text-align: justify;">
+                                    CSI is driven by the belief that events should evoke real emotion, and we achieve this by ensuring that every element of the production—from lighting to interactive experiences—plays a role in creating moments that are not only visually impressive but truly memorable.
+                                </p>
+
+                                <p style="text-align: justify;">
+                                    CSI’s vision goes beyond business success. Through the Hands on Deck Foundation, CSI is committed to supporting indigent children and orphans, creating opportunities for a brighter future.
                                 </p>
                             </div>
-                            <div class="choose-content-wrap">
+                            <div class="choose-content-wrap d-none">
                                 <div class="choose-item">
                                     <div class="choose-item-icon">
                                         <img src="images/event.svg" alt="">
@@ -703,6 +728,125 @@
             </div>
         </div>
         <!-- gallery-area end -->
+
+
+        <!-- contact area -->
+        <div class="contact-area partner-bg py-120" id="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
+                            <!-- <span class="site-title-tagline">Gallery</span> -->
+                            <h2 class="site-title">Contact <span>Us</span></h2>
+                            <div class="site-shadow-text wow fadeInRight" data-wow-delay=".35s">Contact Us</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-content">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <div class="contact-info-icon">
+                                    <i class="fal fa-map-location-dot"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Office Address</h5>
+                                    <p>19 Austin Coker Drive, Harmony estate, Ogba, Lagos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <div class="contact-info-icon">
+                                    <i class="fal fa-phone-volume"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Call Us</h5>
+                                    <p>+2348069204058</p>
+                                    <p>+2349024861566</p>
+                                    <p>+2348062229169</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <div class="contact-info-icon">
+                                    <i class="fal fa-envelopes"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Email Us</h5>
+                                    <p>csieventsmedia@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="contact-info">
+                                <div class="contact-info-icon">
+                                    <i class="fal fa-alarm-clock"></i>
+                                </div>
+                                <div class="contact-info-content">
+                                    <h5>Open Time</h5>
+                                    <p>Mon - Sat (10.00AM - 05.30PM)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-wrapper">
+                    <div class="row g-4">
+                        <!-- <div class="col-lg-5">
+                            <div class="contact-img">
+                                <img src="images/01_1.jpg" alt="">
+                            </div>
+                        </div> -->
+                        <div class="col-lg-12">
+                            <div class="contact-form">
+                                <div class="contact-form-header">
+                                    <h2>Get In Touch</h2>
+                                    <!-- <p>It is a long established fact that a reader will be distracted by the readable
+                                        content of a page randomised words which don't look even slightly when looking
+                                        at its layout. </p> -->
+                                </div>
+                                <form method="post" action="/eventu/assets/php/contact.php" id="contact-form">
+                                    <div class="row">
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="far fa-user-tie"></i></span>
+                                                <input type="text" class="form-control" name="name"
+                                                    placeholder="Your Name" required="">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="input-group">
+                                                <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                                                <input type="email" class="form-control" name="email"
+                                                    placeholder="Your Email" required="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-group">
+                                        <span class="input-group-text"><i class="far fa-pen"></i></span>
+                                        <input type="text" class="form-control" name="subject"
+                                            placeholder="Your Subject" required="">
+                                    </div>
+                                    <div class="input-group textarea">
+                                        <span class="input-group-text"><i class="far fa-comment-lines"></i></span>
+                                        <textarea name="message" cols="30" rows="5" class="form-control"
+                                            placeholder="Write Your Message"></textarea>
+                                    </div>
+                                    <button type="submit" class="theme-btn">Send
+                                        Message <i class="far fa-paper-plane"></i></button>
+                                    <div class="col-md-12 mt-3">
+                                        <div class="form-messege text-success"></div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end contact area -->
 
     </main>
 </template>

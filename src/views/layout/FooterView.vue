@@ -6,7 +6,7 @@
         <div class="footer-shape">
             <img src="images/01_1.png" alt="">
         </div>
-        <div class="footer-widget">
+        <div class="footer-widget d-none">
             <div class="container">
                 <div class="row footer-widget-wrapper pt-100 pb-70">
                     <div class="col-md-6 col-lg-5">
@@ -72,14 +72,14 @@
                 <div class="row">
                     <div class="col-md-6 align-self-center">
                         <p class="copyright-text">
-                            � Copyright <span id="date"></span> <a href="#"> </a> All Rights Reserved.
+                            All Rights Reserved.
                         </p>
                     </div>
                     <div class="col-md-6 align-self-center">
                         <ul class="footer-menu">
-                            <li><a href="contact.html">Support</a></li>
-                            <li><a href="terms.html">Terms Of Services</a></li>
-                            <li><a href="privacy.html">Privacy Policy</a></li>
+                            <!-- <li><a href="contact.html">Support</a></li> -->
+                            <!-- <li><a href="terms.html">Terms Of Services</a></li> -->
+                            <li><a href="/">CSI Experience</a></li>
                         </ul>
                     </div>
                 </div>

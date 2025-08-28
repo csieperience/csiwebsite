@@ -78,14 +78,15 @@
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
                                 <ul class="dropdown-menu fade-down">
-                                    <li><a class="dropdown-item" href="index.html">Home Page 01</a></li>
+                                    <li><a class="dropdown-item" href="index.html">Lighting & Special FX</a></li>
                                     <li><a class="dropdown-item" href="index-2.html">Home Page 02</a></li>
                                     <li><a class="dropdown-item" href="index-3.html">Home Page 03</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item"><router-link to="/" class="nav-link">Our Work</router-link></li>
                             
-                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                            <li class="nav-item"><router-link to="/contact" class="nav-link">Contact Us</router-link></li>
+
                         </ul>
                         <!-- <div class="nav-right">
                             <div class="search-btn">
