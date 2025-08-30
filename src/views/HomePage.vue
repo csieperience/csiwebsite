@@ -40,7 +40,7 @@
     <main class="main">
 
         <!-- hero slider -->
-<div class="hero-section" style="height: 100vh">
+<div class="hero-section" style="height: 100vh" id="home">
     <!-- background video -->
     <video autoplay muted loop playsinline class="hero-video">
         <source src="home-2.mp4" type="video/mp4">
@@ -72,7 +72,7 @@
 
 
         <!-- about area -->
-        <div class="about-area py-120">
+        <div class="about-area py-120" id="about">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -149,62 +149,7 @@
         </div>
         <!-- about area end -->
 
-
-                <!-- partner area -->
-                <div class="partner-area partner-bg py-120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
-                            <!-- <span class="site-title-tagline">Sponsors</span> -->
-                    
-                            <h2 class="site-title">Our <span>Clients</span> and <span>Portfolio</span></h2>
-                            <br/>
-                        </div>
-                    </div>
-                </div>
-                <div class="partner-wrapper wow fadeInUp" data-wow-delay=".25s">
-                    <div class="row g-5 justify-content-center">
-                        <div class="col-6 col-md-2">
-                            <img src="images/01.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/02.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/03_1.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/04.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/05.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/06.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/07.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/08.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/09.png" alt="thumb">
-                        </div>
-                        <div class="col-6 col-md-2">
-                            <img src="images/10.png" alt="thumb">
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="text-center mt-40 wow fadeInUp" data-wow-delay=".25s">
-                    <a href="#" class="theme-btn"><span class="fal fa-users"></span> Become Sponsors</a>
-                </div> -->
-            </div>
-        </div>
-        <!-- partner area end -->
-
-
+        
         <!-- video area -->
         <div class="video-area">
             <div class="container-fluid px-0">
@@ -215,7 +160,7 @@
                                 <div class="video-info">
                                     <div class="site-heading mb-0">
                                         <!-- <span class="site-title-tagline text-white">Latest Video</span> -->
-                                        <h2 class="site-title text-white">Our <span>core</span> values</h2>
+                                        <h2 class="site-title text-white">Our core values</h2>
                                     </div>
                                     <!-- <a href="#" class="theme-btn mt-30">Learn More <i
                                             class="fas fa-arrow-right"></i></a> -->
@@ -297,9 +242,64 @@
         <!-- feature area end -->
 
 
+        <!-- partner area -->
+        <div class="partner-area partner-bg py-120">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="site-heading text-center wow fadeInDown" data-wow-delay=".25s">
+                            <!-- <span class="site-title-tagline">Sponsors</span> -->
+                    
+                            <h2 class="site-title">Our <span>Clients</span> and <span>Portfolio</span></h2>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+                <div class="partner-wrapper wow fadeInUp" data-wow-delay=".25s">
+                    <div class="row g-5 justify-content-center">
+                        <div class="col-6 col-md-2">
+                            <img src="images/01.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/02.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/03_1.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/04.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/05.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/06.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/07.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/08.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/09.png" alt="thumb">
+                        </div>
+                        <div class="col-6 col-md-2">
+                            <img src="images/10.png" alt="thumb">
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="text-center mt-40 wow fadeInUp" data-wow-delay=".25s">
+                    <a href="#" class="theme-btn"><span class="fal fa-users"></span> Become Sponsors</a>
+                </div> -->
+            </div>
+        </div>
+        <!-- partner area end -->
+
+
 
         <!-- speaker area -->
-        <div class="team-area py-80">
+        <div class="team-area">
             
         </div>
         <!-- speaker area end -->
@@ -314,7 +314,7 @@
                             <h1>Lets work together</h1>
                             <p>We redefine event experiences by crafting unforgettable moments
                                 that inspire connection, creativity, and culture.</p>
-                            <a href="#contact-section" class="theme-btn">Contact Us Now<i class="fas fa-arrow-right"></i></a>
+                                <router-link to="/#contact" class="theme-btn">Contact Us Now<i class="fas fa-arrow-right"></i></router-link>
                         </div>
                     </div>
                 </div>
@@ -324,7 +324,7 @@
 
 
         <!-- choose area -->
-        <div class="choose-area py-100">
+        <div class="choose-area py-100" id="why-csi">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
@@ -389,7 +389,7 @@
 
 
         <!-- testimonial-area -->
-        <div class="testimonial-area bg py-120">
+        <div class="testimonial-area bg py-120" id="testimonials">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -672,7 +672,7 @@
 
 
         <!-- gallery-area -->
-        <div class="gallery-area py-120">
+        <div class="gallery-area py-120" id="experiences">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
@@ -731,7 +731,7 @@
 
 
         <!-- contact area -->
-        <div class="contact-area partner-bg py-120" id="contact-section">
+        <div class="contact-area partner-bg py-120" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">

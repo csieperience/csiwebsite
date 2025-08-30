@@ -1,5 +1,5 @@
 <script lang="js" setup>
-// import HeaderView from './views/layout/HeaderView.vue';
+import HeaderView from './views/layout/HeaderView.vue';
 import FooterView from './views/layout/FooterView.vue';
 
 
@@ -8,7 +8,7 @@ import FooterView from './views/layout/FooterView.vue';
 
 <template>
 
-<!-- <HeaderView /> -->
+<HeaderView />
 <router-view></router-view>
 <FooterView />
 

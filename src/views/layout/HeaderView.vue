@@ -72,20 +72,24 @@
                     <div class="collapse navbar-collapse" id="main_nav">
                         <ul class="navbar-nav">
                             <!-- <router-link to="/privacy-policy" :style="'margin-right: 30px'">Privacy Policy</router-link> -->
-                            <li class="nav-item"><router-link to="/" class="nav-link">Home</router-link></li>
-                            <li class="nav-item"><router-link to="/" class="nav-link">About</router-link></li>
+                            <li class="nav-item"><router-link to="/#home" class="nav-link">Home</router-link></li>
+                            <li class="nav-item"><router-link to="/#about" class="nav-link">About</router-link></li>
+                            <li class="nav-item"><router-link to="/#why-csi" class="nav-link">Why CSI</router-link></li>
+                            <li class="nav-item"><router-link to="/#testimonials" class="nav-link">Testimonials</router-link></li>
+                            <li class="nav-item"><router-link to="/#experiences" class="nav-link">Experiences</router-link></li>
+                            <li class="nav-item"><router-link to="/#contact" class="nav-link">Contact Us</router-link></li>
                             
-                            <li class="nav-item dropdown">
+                            <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
                                 <ul class="dropdown-menu fade-down">
                                     <li><a class="dropdown-item" href="index.html">Lighting & Special FX</a></li>
                                     <li><a class="dropdown-item" href="index-2.html">Home Page 02</a></li>
                                     <li><a class="dropdown-item" href="index-3.html">Home Page 03</a></li>
                                 </ul>
-                            </li>
-                            <li class="nav-item"><router-link to="/" class="nav-link">Our Work</router-link></li>
+                            </li> -->
+                            <!-- <li class="nav-item"><router-link to="/" class="nav-link">Our Work</router-link></li>
                             
-                            <li class="nav-item"><router-link to="/contact" class="nav-link">Contact Us</router-link></li>
+                            <li class="nav-item"><router-link to="/contact" class="nav-link">Contact Us</router-link></li> -->
 
                         </ul>
                         <!-- <div class="nav-right">
